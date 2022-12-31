@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    padding: 24px 0;
+    background-color: rgb(150, 41, 41);
+    font-family: 'Cinzel', serif;
+}
+
+h2,
+h3 {
+    font-family: 'Cinzel', serif;
+}
+
+header h1,
+header nav a {
+    color: rgb(39, 39, 39);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 16px;
+}
+
+header nav li {
+    display: inline;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+#about img {
+    width: 500px;
+}
+
+#community {
+    padding-top: 32px;
+}
+
+.container-community {
+    display: flex;
+}
+
+#community h3 {
+    padding-bottom: 12px;
+}
+
+.join {
+    padding-right: 30%;
+    font-family: 'Mukta Malar', sans-serif;
+}
+
+.join form {
+    display: grid;
+    font-size: 16px;
+}
+
+.join form select,
+.join form option {
+    color: black;
+}
+
+.join form button {
+    background-color: rgb(150, 41, 41);
+    color: rgb(39, 39, 39);
+    padding: 16px 0;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+
+    border: none;
+    cursor: pointer;
+}
+
+.social li{
+    display: inline;
+}
+
+.social img {
+    width: 35px;
+}
+
+footer {
+    padding-top: 36px;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer .container {
+    display: block;
+    text-align: center;
+}
+
