@@ -99,12 +99,17 @@ section h2{
 .join form button {
     background-color: rgb(150, 41, 41);
     color: rgb(39, 39, 39);
-    padding: 16px 0;
+    padding: 16px 12px;
     font-family: 'Cinzel', serif;
     font-size: 18px;
 
     border: none;
     cursor: pointer;
+}
+
+.join form button:hover {
+    background-color: rgb(199, 68, 68);
+    text-decoration: underline;
 }
 
 .social li{
